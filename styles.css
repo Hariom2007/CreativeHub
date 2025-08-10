@@ -389,4 +389,29 @@ footer span{
     background-color: #ffffff;
     transform: scale(1.05);
     color: #07AF9E;
+
+}
+/* Base styles for mobile first */
+body {
+  font-size: 1rem;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  padding: 1em;
+}
+
+/* Tablets */
+@media (min-width: 600px) {
+  .container {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+/* Desktops */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 60%;
+  }
 }
